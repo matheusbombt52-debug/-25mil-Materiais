@@ -289,7 +289,7 @@
 
   /* photo grid (real kids) */
   .photo-grid-wrap{padding:0 22px 32px;}
-  .photo-grid-wrap .img-placeholder{height:300px;}
+  .photo-grid-wrap .img-placeholder{height:auto;width:100%;}
 
   /* Pricing */
   .pricing-title{text-align:center;padding:32px 22px 20px;background:var(--cream);}
@@ -593,8 +593,8 @@
     }
     .testimonials-row .testimonial-card{flex:1;margin:0;}
 
-    .photo-grid-wrap{padding-block:0 56px;}
-    .photo-grid-wrap .img-placeholder{height:380px;}
+    .photo-grid-wrap{padding-block:0 56px;text-align:center;}
+    .photo-grid-wrap .img-placeholder{height:auto;width:100%;max-width:560px;margin:0 auto;}
 
     .pricing-title{padding-block:56px 24px;}
     .pricing-title h2{font-size:28px;max-width:640px;margin-left:auto;margin-right:auto;}
