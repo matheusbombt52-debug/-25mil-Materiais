@@ -248,7 +248,7 @@
     padding:16px;
     margin:0 22px 22px;
   }
-  .bonus-card .img-placeholder{height:180px;margin-bottom:14px;border-radius:12px;}
+  .bonus-card .img-placeholder{height:auto;width:100%;margin-bottom:14px;border-radius:12px;}
   .bonus-card .bonus-tag{
     display:inline-block;
     background:#FFEFE2;
@@ -581,7 +581,7 @@
       flex:1;
       margin:0;
     }
-    .bonus-card .img-placeholder{height:150px;}
+    .bonus-card .img-placeholder{height:auto;}
 
     /* Depoimentos em grade de 3 colunas */
     .testimonial-title{padding-block:56px 10px;}
