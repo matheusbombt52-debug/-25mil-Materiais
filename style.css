@@ -554,7 +554,8 @@
     .pain p{max-width:600px;margin-left:auto;margin-right:auto;}
     .pain-box{max-width:420px;margin-left:auto;margin-right:auto;margin-top:20px;}
 
-    .solution-img .img-placeholder{height:360px;}
+    .solution-img{text-align:center;}
+    .solution-img .img-placeholder{height:auto;width:100%;max-width:460px;margin:0 auto 22px;}
     .benefit-list{
       display:grid;
       grid-template-columns:repeat(3,1fr);
