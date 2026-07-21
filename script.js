@@ -7,14 +7,10 @@ function openUpsellModal(){
     document.body.style.overflow = '';
   }
   function acceptUpsell(){
-    // Aqui você pode redirecionar para o checkout do pacote especial (R$ 9,90 upsell)
-    alert('Redirecionando para o checkout do Pacote Especial por R$ 9,90...');
-    closeUpsellModal();
+    window.location.href = 'https://ggcheckout.app/checkout/v5/7G8UHXhPXTVCxsXzZXW6';
   }
   function declineUpsell(){
-    // Aqui você pode redirecionar para o checkout do Plano Básico (R$ 10,00)
-    alert('Redirecionando para o checkout do Plano Básico por R$ 10,00...');
-    closeUpsellModal();
+    window.location.href = 'https://ggcheckout.app/checkout/v5/yECPBZ3uzxeZ1qZHxq5W';
   }
   // Fecha o modal clicando fora do card
   document.getElementById('upsellModal').addEventListener('click', function(e){
