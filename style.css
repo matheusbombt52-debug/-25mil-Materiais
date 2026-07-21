@@ -118,6 +118,19 @@
     cursor:pointer;
     box-shadow:0 6px 14px rgba(46,204,113,0.35);
   }
+  .cta-btn.pulse{
+    animation:ctaPulse 1.6s ease-in-out infinite;
+  }
+  @keyframes ctaPulse{
+    0%,100%{
+      transform:scale(1);
+      box-shadow:0 6px 14px rgba(46,204,113,0.35);
+    }
+    50%{
+      transform:scale(1.035);
+      box-shadow:0 6px 20px rgba(46,204,113,0.55);
+    }
+  }
   .promo-note{
     text-align:center;color:var(--orange-dark);font-weight:600;font-size:13px;margin-bottom:8px;
   }
